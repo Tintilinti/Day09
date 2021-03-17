@@ -1,11 +1,11 @@
 function inverseWhile() {
-    var fiveNumbers = "";
+    var fiveNumbers = [];
     var i = 5;
     while(i >= 0) {
-        console.log(i);
+        fiveNumbers.push(i);
         i--;
     }
-    return fiveNumbers;
+    return String(fiveNumbers);
 }
 console.log(inverseWhile());
 module.exports = inverseWhile;
